@@ -1,5 +1,5 @@
-%%PYTHON%%bin/arc_summary
-%%PYTHON%%bin/arcstat
+%%PYTHON%%bin/zarcsummary
+%%PYTHON%%bin/zarcstat
 %%PYTHON%%bin/dbufstat
 %%PYTHON%%bin/zilstat
 %%TESTS%%bin/raidz_test
@@ -338,12 +338,12 @@ lib/libzpool.so.7.0.0
 %%PYTHON%%%%PYTHON_SITELIBDIR%%/libzfs_core/test/__pycache__/test_nvlist%%PYTHON_TAG%%.pyc
 %%PYTHON%%%%PYTHON_SITELIBDIR%%/libzfs_core/test/test_libzfs_core.py
 %%PYTHON%%%%PYTHON_SITELIBDIR%%/libzfs_core/test/test_nvlist.py
-%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.3.5-py%%PYTHON_VER%%.egg-info/PKG-INFO
-%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.3.5-py%%PYTHON_VER%%.egg-info/SOURCES.txt
-%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.3.5-py%%PYTHON_VER%%.egg-info/dependency_links.txt
-%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.3.5-py%%PYTHON_VER%%.egg-info/not-zip-safe
-%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.3.5-py%%PYTHON_VER%%.egg-info/requires.txt
-%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.3.5-py%%PYTHON_VER%%.egg-info/top_level.txt
+%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.4.1-py%%PYTHON_VER%%.egg-info/PKG-INFO
+%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.4.1-py%%PYTHON_VER%%.egg-info/SOURCES.txt
+%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.4.1-py%%PYTHON_VER%%.egg-info/dependency_links.txt
+%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.4.1-py%%PYTHON_VER%%.egg-info/not-zip-safe
+%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.4.1-py%%PYTHON_VER%%.egg-info/requires.txt
+%%PYTHON%%%%PYTHON_SITELIBDIR%%/pyzfs-2.4.1-py%%PYTHON_VER%%.egg-info/top_level.txt
 lib/security/pam_zfs_key.so
 libdata/pkgconfig/libzfs.pc
 libdata/pkgconfig/libzfs_core.pc

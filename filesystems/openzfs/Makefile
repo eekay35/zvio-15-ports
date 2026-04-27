@@ -44,6 +44,7 @@ CONFIGURE_ARGS+=	--enable-debug --enable-debuginfo
 .if ${PORT_OPTIONS:MPYTHON}
 CONFIGURE_ARGS+=	--with-python=${PYTHON_VER} --enable-pyzfs
 BUILD_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}packaging>0:devel/py-packaging@${PY_FLAVOR}
+BUILD_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}py-setuptools>0:devel/py-setuptools@${PY_FLAVOR}
 BUILD_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}cffi>0:devel/py-cffi@${PY_FLAVOR}
 RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}cffi>0:devel/py-cffi@${PY_FLAVOR}
 RUN_DEPENDS+=	${PYTHON_PKGNAMEPREFIX}sysctl>0:devel/py-sysctl@${PY_FLAVOR}

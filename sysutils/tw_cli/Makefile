@@ -1,5 +1,5 @@
 PORTNAME=	tw_cli
-DISTVERSION=	9.5.5
+DISTVERSION=	10.2.2
 PORTREVISION=	2
 CATEGORIES=	sysutils
 MASTER_SITES=	https://docs.broadcom.com/docs-and-downloads/raid-controllers/raid-controllers-common-files/
